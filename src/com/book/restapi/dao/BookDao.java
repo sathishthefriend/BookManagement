@@ -86,6 +86,13 @@ public class BookDao {
 		book4.setAuthor("Paulo Coelho ");
 		book4.setPrice(9.84);		
 		books.add(book4);
+		
+		Book book5 = new Book();
+		book5.setId(5);
+		book5.setName("The Great Game");
+		book5.setAuthor("Peter ");
+		book5.setPrice(19.84);		
+		books.add(book5);
 	}
 
 	public int updateBook(Book book2) {
